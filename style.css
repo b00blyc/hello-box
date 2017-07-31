@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+	height: 450px;
+	width: 600px;
+	border: 4px solid #3366ff;
+	margin: 3% auto;
+	position: relative;
+}
+.col {
+	height: 90%;
+	width: 33.1%;
+	margin:5% 0;
+	float: left;
+}
+.border {
+	border-left: 1px solid #3366ff;
+	border-right: 1px solid #3366ff;
+}
+.clearfix {
+	clear: both;
+}
+.sq {
+	height: 36px;
+	width: 36px;
+	background: #3366ff;
+	float: left;
+	margin: 0 10px;
+}
+span {
+	float: left;
+	font-size: 36px;
+	font-weight: bold;
+}
+.row-1 {
+	margin-left: 10px;
+}
+.row-2 {
+	margin-left: 50px;
+}
+.row-3 {
+	margin-top: 100px ;
+}
+.row-3 .sq, .row-3 span {
+	float: right;
+}
+.row-4{
+	margin-left: 60px;
+	margin-top: 35px;
+}
+
+.row-4 .sq{
+	z-index: -1;
+	margin-left: 50px;
+	top:55px;
+	position: absolute;
+}
+.row-4 span{
+
+
+}
+.row-5{
+	margin-top: 200px;
+}
+.row-5 .sq{
+	z-index: -1;
+	margin-left: 80px;
+	
+	position: absolute;
+}
+.row-5 span{
+margin-left:56px;
+
+}
